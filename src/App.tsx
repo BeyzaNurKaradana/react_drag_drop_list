@@ -147,7 +147,7 @@ function App() {
             type="text"
             value={newQuoteContent}
             onChange={(e) => setNewQuoteContent(e.target.value)}
-            placeholder="Yeni şarkı ekle..."
+            placeholder="Add new content.."
           />
           <Button
             variant="info"
@@ -169,7 +169,7 @@ function App() {
               setNewQuoteContent(""); // Input'u temizle
             }}
           >
-            Ekle
+            Add
           </Button>
 
           <DragDropContext onDragEnd={onDragEnd}>
